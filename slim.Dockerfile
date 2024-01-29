@@ -1,4 +1,4 @@
-FROM node:21.6-bookworm-slim
+FROM node:latest
 
 RUN apt-get update
 RUN apt-get install -y imagemagick

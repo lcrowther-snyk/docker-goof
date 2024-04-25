@@ -1,4 +1,4 @@
-FROM node:21.6-bullseye-slim
+FROM node:21.7.3-bullseye-slim
 
 RUN apt-get update
 RUN apt-get install -y imagemagick
